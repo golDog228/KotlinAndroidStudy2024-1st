@@ -18,11 +18,18 @@ class MainActivity : AppCompatActivity() {
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
+        } // 네비게인션바 설정 부분
+
+
+        binding.btnChange01.setOnClickListener{
+            binding.textView01.setText("Hello Kotlin!!")
         }
 
-        binding.textView01.text = "HelloKotlin"
 
         val test = Array()
         test.main()
+
+
     }
+
 }
