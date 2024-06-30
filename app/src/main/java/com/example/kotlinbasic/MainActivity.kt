@@ -26,8 +26,11 @@ class MainActivity : AppCompatActivity() {
         }
 
 
-        val test = Array()
-        test.main()
+        val testCollection = Collection()
+        testCollection.muList()
+        testCollection.muSet()
+        testCollection.muMap()
+
 
 
     }
