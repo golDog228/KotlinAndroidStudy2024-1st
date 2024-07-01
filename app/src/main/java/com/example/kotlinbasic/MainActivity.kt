@@ -26,12 +26,8 @@ class MainActivity : AppCompatActivity() {
         }
 
 
-        val testCollection = Collection()
-        testCollection.muList()
-        testCollection.muSet()
-        testCollection.muMap()
-
-
+        val testCollection = ControlFlowWhile()
+        testCollection.controlWhile()
 
     }
 
