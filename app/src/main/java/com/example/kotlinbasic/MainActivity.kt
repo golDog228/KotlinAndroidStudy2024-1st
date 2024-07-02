@@ -26,23 +26,9 @@ class MainActivity : AppCompatActivity() {
             binding.textView01.setText("Hello Kotlin!!")
         }
 
-
-        // 5. 반환값이 있는 함수 호출
-        val test = Function01()
-        Log.d("function01","square = ${test.square(30)}")
-
-        // 6. 반환값이 없는 함수
-        Log.d("function01", "printSum = ${test.printSum(10, 20)}")
-
-        // 7. 입력 값이 없는 함수
-        Log.d("function01", "getPi = ${test.getPi()}")
-
-        // 8. 기본값이 있는 함수
-        test.newFunc("Kotlin")
+        val test = Extension01()
 
 
-        //9. 파라미터 값 직접 지정하기
-        test.newFunc("Kotlin", weight = 70.0)
 
 
     }
